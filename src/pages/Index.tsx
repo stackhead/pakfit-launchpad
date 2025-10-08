@@ -1,19 +1,21 @@
-import Hero from "@/components/Hero";
-import Services from "@/components/Services";
-import Features from "@/components/Features";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import CTA from "@/components/CTA";
+import AIHero from "@/components/AIHero";
+import AIFeatures from "@/components/AIFeatures";
+import ProductDemo from "@/components/ProductDemo";
+import AIPricing from "@/components/AIPricing";
+import AITestimonials from "@/components/AITestimonials";
+import Newsletter from "@/components/Newsletter";
+import AIFooter from "@/components/AIFooter";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Hero />
-      <Services />
-      <Features />
-      <Pricing />
-      <Testimonials />
-      <CTA />
+      <AIHero />
+      <AIFeatures />
+      <ProductDemo />
+      <AIPricing />
+      <AITestimonials />
+      <Newsletter />
+      <AIFooter />
     </div>
   );
 };
